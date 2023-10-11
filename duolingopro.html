@@ -1,222 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-    <title>Duolingo Pro - Status</title>
-    <style>
-      
-
-.MenuBarOne {
-	position: fixed;
-	top: 32px;
-	left: 32px;
-	
-	display: inline-flex;
-	padding: 16px;
-	align-items: center;
-	gap: 4px;
-	
-	border-radius: 26px;
-	background: rgba(229, 229, 229, 0.50);
-	backdrop-filter: blur(25px);
-	
-	cursor: pointer;
-	transition: transform .4s cubic-bezier(0.34, 1.56, 0.64, 1);
-}
-
-.MenuBarOneBackButtonOne {
-	cursor: pointer;
-	transition: .2s;
-	
-	fill: #000;
-}
-
-.MenuBarOne:hover {
-	transform: scale(1.2) rotate(10deg);
-/* 	filter: opacity(.75); */
-}
-
-.MenuBarOne:active {
-	transform: scale(.8) rotate(-10deg);
-}
-
-.MenuBarOneBackTextOne {
-	color: #000;
-	font-family: SF Pro Rounded;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 100%; /* 20px */
-	
-	margin: 0px;
-
-    user-select: none; // chrome and Opera
-    -moz-user-select: none; // Firefox
-    -webkit-text-select: none; // IOS Safari
-    -webkit-user-select: none; // Safari
-}
-
-.PageBoxOne {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	
-	padding-bottom: 32px;
-}
-
-.PageBoxOneHeaderOne {
-	display: flex;
-	height: 512px;
-	padding: 32px;
-	flex-direction: column;
-	justify-content: flex-end;
-	align-items: flex-start;
-	gap: 8px;
-	align-self: stretch;
-}
-
-.PageBoxOneHeaderOneTextOne {
-	align-self: stretch;
-	
-	font-family: SF Pro Rounded;
-	font-size: 128px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 100%; /* 128px */
-	
-	margin: 0px;
-
-    user-select: none; // chrome and Opera
-    -moz-user-select: none; // Firefox
-    -webkit-text-select: none; // IOS Safari
-    -webkit-user-select: none; // Safari
-}
-
-.PageBoxOneHeaderOneTextTwo {
-	color: #000;
-	font-family: SF Pro Rounded;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 100%; /* 20px */
-	
-	margin: 0px;
-}
-
-.PageBoxOneSectionOne {
-	display: flex;
-	padding: 0px 32px;
-	justify-content: center;
-	align-items: flex-start;
-	gap: 16px;
-	align-self: stretch;
-}
-
-.PageBoxOneSectionOneSectionOne {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-start;
-	gap: 16px;
-	flex: 1 0 0;
-}
-
-.PageBoxOneSectionOneSectionOneTextOne {
-	color: #000;
-	font-family: SF Pro Rounded;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: 100%; /* 20px */
-	
-	margin: 0px;
-}
-
-.DuolingoProIssueBoxTypeOne {
-	display: flex;
-	padding: 16px;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: 4px;
-	align-self: stretch;
-	
-	border-radius: 16px;
-	border: 2px solid rgba(0, 0, 0, 0.10);
-	background: #FFF;
-}
-
-.DuolingoProIssueBoxTypeOneBoxOne {
-	display: flex;
-	align-items: center;
-	gap: 8px;
-	align-self: stretch;
-}
-
-.DuolingoProIssueBoxTypeOneBoxOneTextOne {
-	flex: 1 0 0;
-	
-	color: #000;
-	font-family: SF Pro Rounded;
-	font-size: 20px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	
-	margin: 0px;
-}
-
-.DuolingoProIssueBoxTypeOneTextOne {
-	align-self: stretch;
-	
-	color: rgba(0, 0, 0, 0.50);
-	font-family: SF Pro Rounded;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	
-	margin: 0px;
-}
-
-.DuolingoProIssueBoxTypeOneBoxTwo {
-	display: flex;
-	align-items: flex-start;
-	align-content: flex-start;
-	gap: 8px;
-	align-self: stretch;
-	flex-wrap: wrap;
-}
-
-.DuolingoProIssueBoxTypeOneBoxTwoTextOne {
-	font-family: SF Pro Rounded;
-	font-size: 16px;
-	font-style: normal;
-	font-weight: 700;
-	line-height: normal;
-	
-	margin: 0px;
-}
-
-@media (max-width: 832px) {
-	.PageBoxOneSectionOneSectionOne {
-		align-self: stretch;
-		flex: none;
-	}
-	
-	.PageBoxOneHeaderOneTextOne {
-		font-size: 96px;
-	}
-	
-	.PageBoxOneSectionOne {
-		flex-direction: column;
-	}
-}
-
-@media (max-width: 478px) {
-	.PageBoxOneHeaderOneTextOne {
-		font-size: 64px;
-	}
-}
-    </style>
+		<title>Duolingo Pro - Status</title>
+		<style>
+			.MenuBarOne {
+				position: fixed;
+				top: 32px;
+				left: 32px;
+				
+				display: inline-flex;
+				padding: 16px;
+				align-items: center;
+				gap: 4px;
+				
+				border-radius: 26px;
+				background: rgba(229, 229, 229, 0.50);
+				backdrop-filter: blur(25px);
+				
+				cursor: pointer;
+				transition: transform .4s cubic-bezier(0.34, 1.56, 0.64, 1);
+			}
+			
+			.MenuBarOneBackButtonOne {
+				cursor: pointer;
+				transition: .2s;
+				
+				fill: #000;
+			}
+			
+			.MenuBarOne:hover {
+				transform: scale(1.2) rotate(10deg);
+			/* 	filter: opacity(.75); */
+			}
+			
+			.MenuBarOne:active {
+				transform: scale(.8) rotate(-10deg);
+			}
+			
+			.MenuBarOneBackTextOne {
+				color: #000;
+				font-family: SF Pro Rounded;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 100%; /* 20px */
+				
+				margin: 0px;
+			
+			    user-select: none; // chrome and Opera
+			    -moz-user-select: none; // Firefox
+			    -webkit-text-select: none; // IOS Safari
+			    -webkit-user-select: none; // Safari
+			}
+			
+			.PageBoxOne {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				
+				padding-bottom: 32px;
+			}
+			
+			.PageBoxOneHeaderOne {
+				display: flex;
+				height: 512px;
+				padding: 32px;
+				flex-direction: column;
+				justify-content: flex-end;
+				align-items: flex-start;
+				gap: 8px;
+				align-self: stretch;
+			}
+			
+			.PageBoxOneHeaderOneTextOne {
+				align-self: stretch;
+				
+				font-family: SF Pro Rounded;
+				font-size: 128px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 100%; /* 128px */
+				
+				margin: 0px;
+			
+			    user-select: none; // chrome and Opera
+			    -moz-user-select: none; // Firefox
+			    -webkit-text-select: none; // IOS Safari
+			    -webkit-user-select: none; // Safari
+			}
+			
+			.PageBoxOneHeaderOneTextTwo {
+				color: #000;
+				font-family: SF Pro Rounded;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 100%; /* 20px */
+				
+				margin: 0px;
+			}
+			
+			.PageBoxOneSectionOne {
+				display: flex;
+				padding: 0px 32px;
+				justify-content: center;
+				align-items: flex-start;
+				gap: 16px;
+				align-self: stretch;
+			}
+			
+			.PageBoxOneSectionOneSectionOne {
+				display: flex;
+				flex-direction: column;
+				align-items: flex-start;
+				gap: 16px;
+				flex: 1 0 0;
+			}
+			
+			.PageBoxOneSectionOneSectionOneTextOne {
+				color: #000;
+				font-family: SF Pro Rounded;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: 100%; /* 20px */
+				
+				margin: 0px;
+			}
+			
+			.DuolingoProIssueBoxTypeOne {
+				display: flex;
+				padding: 16px;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				gap: 4px;
+				align-self: stretch;
+				
+				border-radius: 16px;
+				border: 2px solid rgba(0, 0, 0, 0.10);
+				background: #FFF;
+			}
+			
+			.DuolingoProIssueBoxTypeOneBoxOne {
+				display: flex;
+				align-items: center;
+				gap: 8px;
+				align-self: stretch;
+			}
+			
+			.DuolingoProIssueBoxTypeOneBoxOneTextOne {
+				flex: 1 0 0;
+				
+				color: #000;
+				font-family: SF Pro Rounded;
+				font-size: 20px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				
+				margin: 0px;
+			}
+			
+			.DuolingoProIssueBoxTypeOneTextOne {
+				align-self: stretch;
+				
+				color: rgba(0, 0, 0, 0.50);
+				font-family: SF Pro Rounded;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				
+				margin: 0px;
+			}
+			
+			.DuolingoProIssueBoxTypeOneBoxTwo {
+				display: flex;
+				align-items: flex-start;
+				align-content: flex-start;
+				gap: 8px;
+				align-self: stretch;
+				flex-wrap: wrap;
+			}
+			
+			.DuolingoProIssueBoxTypeOneBoxTwoTextOne {
+				font-family: SF Pro Rounded;
+				font-size: 16px;
+				font-style: normal;
+				font-weight: 700;
+				line-height: normal;
+				
+				margin: 0px;
+			}
+			
+			@media (max-width: 832px) {
+				.PageBoxOneSectionOneSectionOne {
+					align-self: stretch;
+					flex: none;
+				}
+				
+				.PageBoxOneHeaderOneTextOne {
+					font-size: 96px;
+				}
+				
+				.PageBoxOneSectionOne {
+					flex-direction: column;
+				}
+			}
+			
+			@media (max-width: 478px) {
+				.PageBoxOneHeaderOneTextOne {
+					font-size: 64px;
+				}
+			}
+		</style>
 	</head>
 	<body>
 		<div class="MenuBarOne">
@@ -236,7 +234,7 @@
 			</div>
 			<div class="PageBoxOneSectionOne">
 				<div class="PageBoxOneSectionOneSectionOne">
-					<p class="PageBoxOneSectionOneSectionOneTextOne">Active Issues</p>
+					<p class="PageBoxOneSectionOneSectionOneTextOne">Active Messages</p>
 					<div class="DuolingoProIssueBoxTypeOne" id="DPIA1MO">
 						<div class="DuolingoProIssueBoxTypeOneBoxOne">
 							<p class="DuolingoProIssueBoxTypeOneBoxOneTextOne">Server Maintenance</p>
@@ -263,7 +261,7 @@
 				
 				
 				<div class="PageBoxOneSectionOneSectionOne">
-					<p class="PageBoxOneSectionOneSectionOneTextOne">Past Issues</p>
+					<p class="PageBoxOneSectionOneSectionOneTextOne">Past Messages</p>
 					<div class="DuolingoProIssueBoxTypeOne">
 						<div class="DuolingoProIssueBoxTypeOneBoxOne">
 							<p class="DuolingoProIssueBoxTypeOneBoxOneTextOne" style="color: #34C759;">No Past Issues, Yet</p>
