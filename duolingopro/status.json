@@ -1,5 +1,6 @@
 {
     "2.0BETA10": {
+        "last-updated": "January 3, 2024",
         "warning-1": {
             "warning-title": "Warning 1",
             "warning-description": "Warning 1",
@@ -31,6 +32,7 @@
         "status": "latest"
     },
     "2.0BETA9.2": {
+        "last-updated": "January 2, 2024",
         "warnings": {
             "warning-title": "text",
             "warning-description": "text",
