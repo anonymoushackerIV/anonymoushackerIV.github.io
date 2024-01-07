@@ -41,7 +41,7 @@
             "warning-id": "text"
         },
         "warning-2": {
-            "warning-title": ""AutoSolve This Lesson" buttons don't work yet.",
+            "warning-title": "AutoSolve This Lesson buttons don't work yet.",
             "warning-description": "Warning 2",
             "warning-level": "medium",
             "warning-date": "text",
