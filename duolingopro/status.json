@@ -1,6 +1,6 @@
 {
     "2.0BETA10": {
-        "last-updated": "January 3, 2024",
+        "last-updated": "January 6, 2024",
         "warning-1": {
             "warning-title": "Warning 1",
             "warning-description": "Warning 1",
@@ -24,6 +24,45 @@
         },
         "warning-4": {
             "warning-title": "Warning 4",
+            "warning-description": "Warning 4",
+            "warning-level": "fixed",
+            "warning-date": "text",
+            "warning-id": "text"
+        },
+        "status": "latest"
+    },
+    "2.0BETA9.3": {
+        "last-updated": "January 7, 2024",
+        "warning-1": {
+            "warning-title": "Story support is coming soon.",
+            "warning-description": "Warning 1",
+            "warning-level": "high",
+            "warning-date": "text",
+            "warning-id": "text"
+        },
+        "warning-2": {
+            "warning-title": ""AutoSolve This Lesson" buttons don't work yet.",
+            "warning-description": "Warning 2",
+            "warning-level": "medium",
+            "warning-date": "text",
+            "warning-id": "text"
+        },
+        "warning-3": {
+            "warning-title": "Next Update Tracker doesn't work yet.",
+            "warning-description": "Warning 2",
+            "warning-level": "medium",
+            "warning-date": "text",
+            "warning-id": "text"
+        },
+        "warning-4": {
+            "warning-title": "AutoSolving questions that involve translating and choosing the correct pronoun have been fixed.",
+            "warning-description": "Warning 4",
+            "warning-level": "fixed",
+            "warning-date": "text",
+            "warning-id": "text"
+        },
+        "warning-5": {
+            "warning-title": "Active Issues tab has been fixed.",
             "warning-description": "Warning 4",
             "warning-level": "fixed",
             "warning-date": "text",
